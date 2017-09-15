@@ -1,0 +1,6 @@
+
+signal sig : std_logic_vector (0 to 3);
+signal signalTwo: std_logic_vector(3 downto 0)?
+if (sig = "000") then lalala ; sig = signalTwo
+signalTwo <= "0001" ;
+
